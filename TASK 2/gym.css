@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lightsteelblue;
+}
+
+.container {
+    width: 900px;
+    /* border: 3px solid purple; */
+    margin: 60px auto;
+    background-color: rgb(126, 20, 20);
+}
+
+.items {
+    /* border: 3px solid maroon; */
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(255, 122, 107);
+}
+
+#fruit {
+    float: left;
+    width: 48%;
+}
+
+#computer {
+    float: right;
+    width: 48%;
+}
+
+#stationary {
+    clear: both;
+    /* clear: right; */
+    /* float: left; */
+    width: 99.1%;
+}
+
+p,
+h3 {
+    text-align: justify;
+}
+
+h1 {
+    /* border-bottom: solid rgb(53, 28, 28) ; */
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(184 255 248);
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/bg.webp");
+    background-size: cover;
+}
+
+.left {
+    /* border: solid red; */
+    color: wheat;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+}
+
+.left img {
+    align-items: center;
+    width: 90px;
+}
+
+.left div {
+    line-height: 19px;
+    text-align: center;
+}
+
+.mid {
+    /* border: solid pink; */
+    color: wheat;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.right {
+    /* border: solid green; */
+    color: black;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    color: wheat;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 9px;
+    color: blueviolet;
+    background-color: white;
+    padding: 3px 4px;
+    border: 2px solid saddlebrown;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: wheat;
+}
+
+.button-86 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 5px 10px;
+    margin-top: 12px;
+}
+
+.button-86::after,
+.button-86::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+.button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: rgb(126, 20, 20);
+    border-radius: 10px;
+}
+
+.button-86::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: rgb(216, 138, 112);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.button-86:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+}
+
+.button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+}
+#logo{
+    border-radius: 15%;
+}

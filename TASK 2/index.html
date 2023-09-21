@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Open+Sans:wght@500&family=Raleway&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+
+    body {
+        font-family: 'Lora', serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.webp');
+        /* height: 1000px; 
+        width: 1600px; */
+        background-repeat: no-repeat;
+    }
+
+    /* .bgimage {
+        background-image: url('img/bg.webp');
+    } */
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 34px;
+        /* border: 2px solid black; */
+        display: inline-block;
+    }
+
+    .left img {
+        width: 100px;
+        height: 100px;
+        border-radius: 25%;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 25px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+    }
+
+    .navbar li a:hover, .navbar li a.active {
+        font-weight: bold;
+        color: rgb(114, 5, 5);
+    }
+
+    .btn {
+        font-family: 'Lora', serif;
+        margin: 10px;
+        background-color: rgb(126, 20, 20);
+        color: rgb(241, 202, 209);
+        padding: 8px 11px;
+        border: 2px solid black;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(241, 202, 209);
+        color: rgb(126, 20, 20);
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 51px 389px;
+        padding: 14px 70px;
+        width: 35%;
+        border-radius: 10px;
+    }
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 17px;
+        border-radius: 15px;
+        font-family: 'Lora', serif;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 25%;
+        margin: 20px auto;
+    }
+    .btn2{
+        font-family: 'Lora', serif;
+        margin: 0px 660px;
+        background-color: rgb(126, 20, 20);
+        color: rgb(241, 202, 209);
+        padding: 8px 11px;
+        border: 2px solid black;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .btn2:hover {
+        background-color: rgb(241, 202, 209);
+        color: rgb(126, 20, 20);
+    }
+    
+    
+</style>
+<!-- <body background="url('img/bg.webp')"> -->
+
+<header class="header">
+    <!-- Left box for logo -->
+    <div class="left">
+        <img src="img/yoga.avif" alt="">
+        <div>YOGA</div>
+    </div>
+
+    <!-- Mid box for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Yoga Centers</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Right box for buttons -->
+    <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Join the New Batch today!</h1>
+
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your email id">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+<a href="task1.html">
+<button class="btn2">FOR MORE INFO</button>
+</a>
+</body>
+
+</html>
